@@ -1,9 +1,12 @@
 <template>
-    <tr>
-        <td v-for="(value, index) in values" :key="index">
-            {{ value }}
-        </td>
-    </tr>
+    <section>
+        <h2>Hello X-Table</h2>
+        <tr>
+            <td v-for="(value, index) in values" :key="index">
+                {{ value }}
+            </td>
+        </tr>
+    </section>
 </template>
 
 <script>
